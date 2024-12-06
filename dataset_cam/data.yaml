@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 30
+names: ['bagpack', 'bench', 'board', 'bush', 'car', 'carShed', 'cctv', 'chair', 'cleaningCart', 'door', 'dustbin', 'exitLight', 'fireExt', 'lamp', 'lift', 'liftbutton', 'light', 'obstacle', 'path', 'person', 'pillar', 'pothole', 'railing', 'ramp', 'sign', 'stairs', 'table', 'tree-chair-bench-table-wall', 'wall', 'window']
+
+roboflow:
+  workspace: deeplearningproject-bk2cz
+  project: dlpro-tckzy
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deeplearningproject-bk2cz/dlpro-tckzy/dataset/3
