@@ -13,7 +13,7 @@ from pydub import AudioSegment
 from pydub.playback import play
 
 # OpenAI API Key
-openai.api_key = os.environ.get("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 # Speech recognizer
 recognizer = sr.Recognizer()
 mic = sr.Microphone()
