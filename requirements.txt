@@ -1,32 +1,45 @@
-# Core dependencies
+# -----------------------------
+# Core scientific libraries
+# -----------------------------
 numpy==1.26.4
 pandas==2.2.3
+
+# -----------------------------
+# Computer Vision
+# -----------------------------
 opencv-python-headless==4.10.0.84
-torch==2.2.2
-torchvision==0.17.2
-torchaudio==2.2.2
-ultralytics==8.3.40
-ultralytics-thop==2.0.12
-scipy==1.14.1
+Pillow==10.4.0
 
-# Audio and TTS
-gTTS==2.5.3
-playsound==1.3.0
+# -----------------------------
+# Deep Learning
+# -----------------------------
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+# -----------------------------
+# Audio and Speech
+# -----------------------------
+soundfile==0.12.1
 pydub==0.25.1
-SpeechRecognition==3.10.1
+librosa==0.10.2.post1
+TTS==0.22.0
+transformers==4.44.2
 
-# Streamlit app
+# -----------------------------
+# Web and App Interface
+# -----------------------------
 streamlit==1.39.0
 
-# OpenAI + utilities
-openai==1.51.0
+# -----------------------------
+# Utilities and API
+# -----------------------------
 requests==2.32.3
+tqdm==4.66.5
 python-dotenv==1.0.1
+openai==1.44.0
 
-# Plotting / visualization (optional)
-matplotlib==3.9.3
-seaborn==0.13.2
-
-# Misc
-tqdm==4.67.1
-certifi==2024.8.30
+# -----------------------------
+# Optional: for JSON and serialization
+# -----------------------------
+protobuf==5.28.3
